@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>重定向到 jaaleng.github.io</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background: #f5f5f5;
+            color: #333;
+            margin: 0;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .info {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>正在重定向</h1>
+        <p>从 <strong>gmeek.qzz.io</strong> 转到 <strong>jaaleng.github.io</strong></p>
+        <p>如果页面没有自动跳转，请 <a href="https://jaaleng.github.io">点击这里</a>。</p>
+        <div class="info">
+            <p>gmeek.qzz.io → jaaleng.github.io</p>
+        </div>
+    </div>
+    
+    <script>
+        // 立即重定向
+        window.location.replace('https://jaaleng.github.io' + window.location.pathname + window.location.search);
+    </script>
+</body>
+</html>
